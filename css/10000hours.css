@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+body, 
+.inp-wannabe-job::placeholder, 
+.inp-time-hour::placeholder,
+.inp-wannabe-job,
+.inp-time-hour {
+    font-family: 'GmarketSansMedium';
+}
+
+button,
+.txt-wannabe strong,
+.txt-time strong {
+    font-family: "GmarketSansBold";
+}
+
+
+.cont-modal h2,
+.cont-modal p,
+.txt-quote1 {
+    font-family: 'OTEnjoystoriesBA'; 
+}
+
+img {
+    vertical-align: center;
+}
+
+.cont-hours {
+    width: 100%;
+    padding: 70px 0;
+    background-color: #662D91;
+}
+
+/* 레이아웃 */
+.wrapper {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* 로고 */
+.img-header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    padding: 100px 0;
+    background-image: url("../img/clock.png");
+    background-repeat: no-repeat;
+    background-size: 261px 265px;
+    background-position: 50% 50%;
+}
+
+.img-header .title-logo {
+    width: 564px;
+    z-index: 2;
+}
+
+/* intro */
+.explanation {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.txt-quote1 {
+    font-size: 36px;
+    margin-bottom: 78px;
+    color: #F5DF4D;
+}
+
+.box-quote {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 102px;
+}
+
+.box-quote strong {
+    font-family: 'GmarketSansBold';
+    font-size: 24px;
+}
+
+.box-quote .txt-quote2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #fff;
+}
+
+.img-quote {
+    padding-top: 18px;
+}
+
+.inp-wannabe-job::placeholder, .inp-time-hour::placeholder {
+    text-align: center;
+}
+
+.cont-inp-form .inp-form {
+    text-align: center;
+}
+
+.txt-wannabe, .txt-time {
+    font-size: 24px;
+    margin-bottom: 27px;
+    color: #fff;
+}
+
+.inp-wannabe-job, .inp-time-hour {
+    width: 228px;
+    height: 42px;
+    font-size: 24px;
+    border: 0;
+    outline: 0;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 0 17px;
+}
+
+.btn-inp-form {
+    position: relative;
+    width: 565px;
+    height: 66px;
+    border: 0;
+    outline: 0;
+    border-radius: 56px;
+    margin: 115px 0 147px 0;
+    font-size: 24px;
+    color: #5B2386;
+    background-color: #FCEE21;
+    cursor: pointer;
+}
+
+.btn-inp-form::after {
+    content: ' ';
+    width: 64px;
+    height: 72px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: -65px;
+    z-index: 10;
+    background-image: url(../img/click.png);
+}
+
+/* 계산 결과 */
+.cont-result {
+    text-align: center;
+}
+
+.txt-wannabe strong, .txt-time strong {
+    font-size: 72px;
+}
+
+.btn-result {
+    margin: 127px 0 130px 0;
+}
+
+.btn-modal {
+    width: 356px;
+    height: 66px;
+    border: 0;
+    outline: 0;
+    border-radius: 56px;
+    font-size: 24px;
+    color: #5B2386;
+    background-color: #FCEE21;
+    cursor: pointer;
+    margin: 0 9px;
+}
+
+.btn-share {
+    width: 191px;
+    height: 66px;
+    border: 0;
+    outline: 0;
+    border-radius: 56px;
+    font-size: 24px;
+    color: #5B2386;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.cont-footer {
+    text-align: center;
+}
+
+.com-logo {
+    width: 125px;
+    margin-bottom: 20px;
+}
+
+.txt-copyright {
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+/* 모달 */
+.cont-modal { 
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.cont-modal h2 {
+    font-size: 96px;
+    margin: 76px 0 4px 0;
+    color: #5B2386;
+}
+
+.cont-modal p {
+    font-size: 36px;
+    color: #5B2386;
+}
+
+.cont-modal img {
+    margin: 29px 0 74px 0;
+}
+
+.btn-go {
+    width: 508px;
+    height: 66px;
+    border: 0;
+    outline: 0;
+    border-radius: 56px;
+    font-size: 24px;
+    color: #5B2386;
+    background-color: #FCEE21;
+}
